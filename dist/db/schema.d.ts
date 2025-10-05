@@ -1,0 +1,11 @@
+export declare const applianceCategoryEnum: any;
+export declare const taskFrequencyEnum: any;
+export declare const appliances: any;
+export declare const serviceContacts: any;
+export declare const maintenanceTasks: any;
+export type InsertAppliance = typeof appliances.$inferInsert;
+export type SelectAppliance = typeof appliances.$inferSelect;
+export type InsertServiceContact = typeof serviceContacts.$inferInsert;
+export type SelectServiceContact = typeof serviceContacts.$inferSelect;
+export type InsertMaintenanceTask = typeof maintenanceTasks.$inferInsert;
+export type SelectMaintenanceTask = typeof maintenanceTasks.$inferSelect;

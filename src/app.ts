@@ -3,10 +3,10 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import dotenv from 'dotenv';
-import { applianceRoutes } from './routes/appliances.js';
-import { serviceContactRoutes } from './routes/serviceContacts.js';
-import { maintenanceTaskRoutes } from './routes/maintenanceTasks.js';
-import { errorHandler, notFoundHandler } from './middleware/errorHandler.js';
+import { applianceRoutes } from './routes/appliances.ts';
+import { serviceContactRoutes } from './routes/serviceContacts.ts';
+import { maintenanceTaskRoutes } from './routes/maintenanceTasks.ts';
+import { errorHandler, notFoundHandler } from './middleware/errorHandler.ts';
 
 // Load environment variables
 dotenv.config();
